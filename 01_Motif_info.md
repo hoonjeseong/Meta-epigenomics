@@ -10,14 +10,11 @@ import pandas as pd
 from collections import defaultdict
 from Bio.Seq import Seq
 ```
-#### __input variables__
-```python
-mslist='./msublist.html'
-mprot='./msubprolist.html'
-```
 
 #### __output variables__
 ```python
+mslist='./msublist.html'
+mprot='./msubprolist.html'
 mprot_seq='./msub_prot.faa'
 mtase_pickle='./MTase.pickle'
 mtase_df='./MTase_motifs.tsv'
