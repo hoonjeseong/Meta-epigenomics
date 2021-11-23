@@ -10,20 +10,20 @@ import pandas as pd
 from collections import defaultdict
 from Bio.Seq import Seq
 ```
-
-#### __output variable__
-
-
+#### __input variables__
 ```python
 mslist='./msublist.html'
 mprot='./msubprolist.html'
+```
+
+#### __output variables__
+```python
 mprot_seq='./msub_prot.faa'
 mtase_pickle='./MTase.pickle'
 mtase_df='./MTase_motifs.tsv'
 ```
 
 #### __get rebase data__
-
 
 ```python
 urllib.request.urlretrieve("http://rebase.neb.com/cgi-bin/msubprolist", mprot)
