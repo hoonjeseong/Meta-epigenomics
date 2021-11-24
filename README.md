@@ -8,7 +8,7 @@ This toolkit helps detect DNA methylation patterns across metagenomic samples.
 
 #### - Prerequisites
 
-This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). Please check the SMRTLink manual for recent chemical and sequencer (e.g. Sequel II). I used pbbioconda command for alignment of raw reads, merging the multiple sequence result from cells, and detection of base modifications (https://github.com/PacificBiosciences/pbbioconda).
+This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). Please check the SMRTLink manual for recent chemicals and sequencers (e.g. Sequel II). I used pbbioconda (https://github.com/PacificBiosciences/pbbioconda) command to align raw reads, merge the multiple sequence result from cells, and detect base modifications.
 
 Where reference.fasta contains your reference sequences.
 
