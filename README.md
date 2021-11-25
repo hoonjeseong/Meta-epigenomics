@@ -34,7 +34,7 @@ Using the command of _pip3 install [somthing]_
 
 Then, please copy this git
 
-`git clone https://github.com/hoonjeseong/Meta-epigenome_analysis.git`
+`git clone https://github.com/hoonjeseong/Meta-epigenomics.git`
 
 - MTases and their motif information
 
