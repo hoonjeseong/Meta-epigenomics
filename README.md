@@ -17,7 +17,7 @@ This toolkit helps detect DNA methylation patterns across metagenomic samples.
 
 - The metagenome-assembled genomes (MAGs) must be prepared prior to analysis as this is based on genome-centric metagenomics.
 - This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). 
-&larr; [Commands what I used for the ipdSummary is available here.](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/tutorial-ipdSummary.md)
+- [Commands what I used for the ipdSummary is available here.](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/tutorial-ipdSummary.md)
 
 - The absolute paths of _bedtools_ and _samtools_ must be written in the _program.txt_ file as follows:
 
