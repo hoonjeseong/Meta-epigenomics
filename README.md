@@ -18,6 +18,7 @@ Where aligned_subreads.bam is where your aligned reads will be stored.
 
 #The purpose of this snakemake workflow is to obtain high-quality metagenome-assembled genomes (MAGs) from previously generated assemblies. 
 
-![Meta-Epi](https://user-images.githubusercontent.com/39515472/143149711-66a11b4e-cdfa-45fe-b541-3cf3f8788fbc.png)
+![0  Meta-Epi-min](https://user-images.githubusercontent.com/39515472/143327436-b50b0f01-ba70-4736-b5ba-e4e37bb1934e.png)
+
 
 
