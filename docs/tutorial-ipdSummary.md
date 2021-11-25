@@ -6,7 +6,7 @@
   
   However, for sequence data using recent chemistries and sequencers (e.g. Sequel II) please check the SMRTLink manual before used this commands.
 
-__Command line__
+### __Command line__
 
 - __Load the environment__
 
