@@ -35,6 +35,10 @@ Then, please copy this git
 
 `git clone https://github.com/hoonjeseong/Meta-epigenome_analysis.git`
 
+- MTases and their motif information
+
+If you want to get the motif of DNA methylation patterns reported in REBASE, then I suggest you access the analysis in [Getting MTase and motif information from REBASE](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/utils/MTase_REBASE.md). It provides motif information recognized by methyltransferases (MTases) in the [REBASE database](http://rebase.neb.com/rebase/rebase.html), for example in the form of G_A_NTC/G_A_NTC (forward/reverse strand).
+
 #The purpose of this snakemake workflow is to obtain high-quality metagenome-assembled genomes (MAGs) from previously generated assemblies. 
 
 
