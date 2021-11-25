@@ -1,0 +1,2 @@
+bedtools:/home/bioware/bedtools2/bin/bedtools
+samtools:/home/bioware/bin/samtools
