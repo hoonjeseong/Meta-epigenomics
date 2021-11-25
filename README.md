@@ -42,5 +42,11 @@ If you want to get the motif of DNA methylation patterns reported in REBASE, the
 ### __Simple example__
 
 #The purpose of this snakemake workflow is to obtain high-quality metagenome-assembled genomes (MAGs) from previously generated assemblies. 
+- __Motif calculation__
+`Usage: Motif_calculation.py -b [bam; folder of bamfiles; Extension: bam] -i [folder of ipdSummary files; Extension: gff] -g [folder of MAGs; Extension: fa or fna] -o [output]`
+
+- __SNMV comparison in overlapped region__
+`Usage: Overlapped_SNMV.py -i [folder of ipdSummary files; Extension: csv and gff] -g [folder of MAGs; Extension: fa or fna] -m motif [fwd/rev] -o [output]`
+
 
 
