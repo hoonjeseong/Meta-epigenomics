@@ -7,8 +7,9 @@ _The purpose of this script is to calculate the fraction of specific methylated 
 - Before comparison of methylation fraction, you should find DNA methylated motifs of each MAG.
 - DNA methylated motifs could be inferred by [finding the highest DNA methylated motif](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/Motif-calculation.md) and [comparing MTase similarity with its recognition motif](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/utils/MTase_REBASE.md).
 
+### ___Usage___
 ```
-Usage: python Overlapped_SNMV.py -i [folder of ipdSummary files; Extension: csv and gff] -g [folder of MAGs; Extension: fa or fna] -m motif [fwd/rev] -o [output]
+python Overlapped_SNMV.py -i [folder of ipdSummary files; Extension: csv and gff] -g [folder of MAGs; Extension: fa or fna] -m motif [fwd/rev] -o [output]
 ```
 
   ___folder of ipdSummary files___: _sample.csv_ and _sample.gff_ files from [ipdSummary](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/utils/MTase_REBASE.md) are required.
