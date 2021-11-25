@@ -6,6 +6,8 @@
 - [Prerequisites](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#prerequisites)
 - [Getting MTase and motif information from REBASE](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/utils/MTase_REBASE.md)
 - [Simple example](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#simple-example)
+- [Documentation: Motif calculation](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/Motif-calculation.md)
+- [Documentation: Overlapped_SNMV](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/Overlapped_SNMV.md)
 
 ### __Overview__
 
