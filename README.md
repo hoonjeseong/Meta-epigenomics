@@ -43,13 +43,11 @@ If you want to get the motif of DNA methylation patterns reported in REBASE, the
 ### __Simple example__
 
 - __Motif calculation__
-
 #### _The purpose of this script is to obtain methylated frequency of each motif on MAGs across metagenomic samples._
 
 `Usage: python Motif_calculation.py -b [bam; folder of bamfiles; Extension: bam] -i [folder of ipdSummary files; Extension: gff] -g [folder of MAGs; Extension: fa or fna] -o [output]`
 
 - __SNMV comparison in overlapped region__
-
 #### _The purpose of this script is to obtain the fraction of specific methylated motif by each nucleotide position on MAGs across metagenomic samples._
 
 `Usage: python Overlapped_SNMV.py -i [folder of ipdSummary files; Extension: csv and gff] -g [folder of MAGs; Extension: fa or fna] -m motif [fwd/rev] -o [output]`
