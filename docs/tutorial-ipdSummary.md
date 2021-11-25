@@ -2,7 +2,7 @@
 
 ### __Prerequisites__
 
-  This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). I used [pbbioconda](https://github.com/PacificBiosciences/pbbioconda) command to ___align___ raw reads, ___merge___ the multiple sequence result from cells, and ___detect___ base modifications.
+I used [pbbioconda](https://github.com/PacificBiosciences/pbbioconda) command to ___align___ raw reads, ___merge___ the multiple sequence result from cells, and ___detect___ base modifications.
   
   However, for sequence data using recent chemistries and sequencers (e.g. Sequel II) please check the SMRTLink manual before used this commands.
 
