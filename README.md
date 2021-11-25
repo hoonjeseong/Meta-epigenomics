@@ -33,7 +33,7 @@ using the command of _pip3 install [somthing]_
 - biopython
 ```
 
-`git clone --recurse-submodules https://github.com/hoonjeseong/Meta-epigenome_analysis.git`
+`git clone https://github.com/hoonjeseong/Meta-epigenome_analysis.git`
 
 #The purpose of this snakemake workflow is to obtain high-quality metagenome-assembled genomes (MAGs) from previously generated assemblies. 
 
