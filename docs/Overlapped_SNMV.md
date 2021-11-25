@@ -1,4 +1,4 @@
-## __Overlapped ingle nucleotide methylated variation (SNMV)__
+## __Overlapped single nucleotide methylated variation (SNMV)__
 
 ![meta-epi3](https://user-images.githubusercontent.com/39515472/143435335-04425562-294b-4c47-a949-e67d4add8852.png)
 
