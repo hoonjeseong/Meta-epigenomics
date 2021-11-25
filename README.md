@@ -30,7 +30,7 @@ samtools:[/usr/bin/samtools] #(tested by htslib 1.8)
 
 Using the command of _pip3 install [somthing]_
 
-`itertools, optparse, shutil, pathlib, gzip, pickle, tqdm, biopython`
+`re, itertools, optparse, shutil, pathlib, gzip, pickle, tqdm, biopython`
 
 Then, please copy this git
 
