@@ -4,6 +4,8 @@
 
 This toolkit helps detect DNA methylation patterns across metagenomic samples.
 
+![0  Meta-Epi-min (1)](https://user-images.githubusercontent.com/39515472/143376782-f68a5aff-681a-4fc2-ad26-4c01439521b9.png)
+
 #### - Table of contents
 
 #### - Prerequisites
@@ -37,7 +39,6 @@ using the command of _pip3 install [somthing]_
 
 #The purpose of this snakemake workflow is to obtain high-quality metagenome-assembled genomes (MAGs) from previously generated assemblies. 
 
-![0  Meta-Epi-min](https://user-images.githubusercontent.com/39515472/143327436-b50b0f01-ba70-4736-b5ba-e4e37bb1934e.png)
 
 
 
