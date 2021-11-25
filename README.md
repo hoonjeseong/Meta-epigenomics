@@ -1,14 +1,14 @@
-## __The overview of the meta-epigenomic analysis__
+## __Meta-epigenomic analysis__
 
-#### - Overview
+### - Overview
 
 This toolkit helps detect DNA methylation patterns across metagenomic samples.
 
 ![0  Meta-Epi-min (1)](https://user-images.githubusercontent.com/39515472/143376782-f68a5aff-681a-4fc2-ad26-4c01439521b9.png)
 
-#### - Table of contents
+### - Table of contents
 
-#### - Prerequisites
+### - Prerequisites
 
 This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). 
 &larr; [Commands what I used for the ipdSummary is available here.](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/tutorial-ipdSummary.md)
