@@ -1,14 +1,18 @@
 ## __Meta-epigenomic analysis__
 
-### - Overview
+### __Table of contents__
+
+- [Overview](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#--overview)
+
+- [Prerequisites](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#--prerequisites)
+
+### __Overview__
 
 This toolkit helps detect DNA methylation patterns across metagenomic samples.
 
 ![0  Meta-Epi-min (1)](https://user-images.githubusercontent.com/39515472/143376782-f68a5aff-681a-4fc2-ad26-4c01439521b9.png)
 
-### - Table of contents
-
-### - Prerequisites
+### __Prerequisites__
 
 - The metagenome-assembled genomes (MAGs) must be prepared prior to analysis as this is based on genome-centric metagenomics.
 - This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). 
