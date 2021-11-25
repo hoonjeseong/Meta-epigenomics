@@ -18,14 +18,14 @@ This toolkit helps detect DNA methylation patterns across metagenomic samples.
 - This analysis requires the results of the base modification (ipdSummary) results from PacBio sequencing (https://libraries.io/github/ben-lerch/BaseMod-3.0). 
 &larr; [Commands what I used for the ipdSummary is available here.](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/tutorial-ipdSummary.md)
 
-- This analysis requires _python 3.6 >=_ and the absolute paths of _bedtools_ and _samtools_ must be written in the _program.txt_ file as follows:
+- The absolute paths of _bedtools_ and _samtools_ must be written in the _program.txt_ file as follows:
 
 ```
 bedtools:[/usr/bin/bedtools] #(tested by bedtools v2.25.0)
 samtools:[/usr/bin/samtools] #(tested by htslib 1.8)
  ```
  
-- Required python library
+- Required _python 3.6 >=_ and libraries
 
 Using the command of _pip3 install [somthing]_
 
