@@ -18,12 +18,12 @@ python Overlapped_SNMV.py -i [folder of ipdSummary files; Extension: csv and gff
 
   ___motif (fwd/rev)___: Forward and reverse motifs are required for input. Example: __'G_A_NTC/G_A_NTC'__ (A nucleotide surrounded by two underscores indicates a DNA modification)
 
-  ___output___: The output table.
+  ___output___: The output table of methylation fraction values.
   
   | _MAG ID_ | MAG 1 | MAG 1 | MAG 1 | MAG 3 ...|
   |:-- | :------: | :------: | :------: | :------: |
   | ___Contig ID:base position:strand___ | MAG1_1:5:+ | MAG1_1:20:+ | MAG1_1:23:- | MAG1_3:115:+ ...|
-  | ___Sample 1___ | 1.0 (methylation fraction) | 0.8 | 0.9 | 0.75 ...|
+  | ___Sample 1___ | 1.0 | 0.8 | 0.9 | 0.75 ...|
   | ___Sample 2___ | 0.3 | 0.9 | 0.7 | 0.95 ...|
   | ___Sample 3___ | 0.3 | 0.9 | 0.7 | 0.95 ...|
   
