@@ -2,9 +2,9 @@
 
 ### __Table of contents__
 
-- [Overview](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#--overview)
+- [Overview](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#overview)
 
-- [Prerequisites](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#--prerequisites)
+- [Prerequisites](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#prerequisites)
 
 ### __Overview__
 
