@@ -4,6 +4,7 @@
 
 - [Overview](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#overview)
 - [Prerequisites](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#prerequisites)
+- [Detecting DNA modification](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/docs/tutorial-ipdSummary.md)
 - [Getting MTase and motif information from REBASE](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/utils/MTase_REBASE.md)
 
 ### __Overview__
