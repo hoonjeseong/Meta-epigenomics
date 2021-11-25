@@ -21,19 +21,37 @@ ___output___: The output folder
   
 This will create the following files in the following output folder: 
 
-- sample.cov.csv: A log file
-
-- sample.motif.csv: The assignments from NMF unmanipulated useful for identifying multicopy genes.
-
-- sample.frac.csv: As above but discretised NMF predictions.
-
-- coverage.total.csv: Predictions from the Gibbs sampler selecting run with maximum log posterior.
-
-- methylome.total.csv: 
-  
+- sample.cov.csv: The breadth of coverage with a certain depth of reads (e.g., 10x; 10x genome coverage / genome size).
   | _MAG ID_ | MAG 1 | MAG 1 | MAG 1 | MAG 3 ...|
   |:-- | :------: | :------: | :------: | :------: |
-  | ___Contig ID:base position:strand___ | MAG1_1:5:+ | MAG1_1:20:+ | MAG1_1:23:- | MAG1_3:115:+ ...|
-  | ___Sample 1___ | 1.0 (methylation fraction) | 0.8 | 0.9 | 0.75 ...|
-  | ___Sample 2___ | 0.3 | 0.9 | 0.7 | 0.95 ...|
-  | ___Sample 3___ | 0.3 | 0.9 | 0.7 | 0.95 ...|
+  | ___Sample 1___ | 0.98 | 0.5 | 0.3 | 0.75 ...|
+
+- coverage.total.csv: Aggregation of sample.cov data tables. 
+  | _MAG ID_ | MAG 1 | MAG 1 | MAG 1 | MAG 3 ...|
+  |:-- | :------: | :------: | :------: | :------: |
+  | ___Sample 1___ | 0.98 | 0.5 | 0.3 | 0.75 ...|
+  | ___Sample 2___ | 0.92 | 0.4 | 0.82 | 0.55 ...|
+
+- sample.motif.csv: The number of motif in the genome region with a certain depth.
+  | _Motifs_ | GGAGG | GGCGG | GGAGA | GGCGA ...|
+  |:-- | :------: | :------: | :------: | :------: |
+  | ___MAG 1___ | 32 | 12 | 10 | 23 ...|
+  | ___MAG 2___ | 20 | 11 | 12 | 34 ...|
+  
+- sample.methyl.csv: The number of methylated motif in the genome region with a certain depth.
+  | _Motifs_ | GGAGG | GGCGG | GGAGA | GGCGA ...|
+  |:-- | :------: | :------: | :------: | :------: |
+  | ___MAG 1___ | 13 | 10 | 8 | 3 ...|
+  | ___MAG 2___ | 10 | 9 | 10 | 33 ...|
+  
+- sample.frac.csv: The fraction table between _sample.methyl_ and _sample.motif_ (fraction = 100 * # methylated/ # motif).
+  | _Motifs_ | GGAGG | GGCGG | GGAGA | GGCGA ...|
+  |:-- | :------: | :------: | :------: | :------: |
+  | ___MAG 1___ | 40.63 | 83.33 | 80.00 | 13.04 ...|
+  | ___MAG 2___ | 50.00 | 81.81 | 83.33 | 97.06 ...|
+
+- methylome.total.csv: Aggregation of sample.frac data tables. 
+  | _MAG ID_ | Samples | Coverage | GGAGG | GGCGG | GGAGA ...|
+  |:-- | :------: | :------: | :------: | :------: | :------: |
+  | ___MAG 1___ | ___Sample 1___ | 0.98 | 40.63 | 83.33 | 80.00 ...|
+  | ___MAG 1___ | ___Sample 2___ | 0.62 | 10.14 | 80.28 | 72.11 ...|
