@@ -3,8 +3,8 @@
 ### __Table of contents__
 
 - [Overview](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#overview)
-
 - [Prerequisites](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/README.md#prerequisites)
+- [Getting MTase and motif information from REBASE](https://github.com/hoonjeseong/Meta-epigenome_analysis/blob/main/01_Motif_info.md)
 
 ### __Overview__
 
