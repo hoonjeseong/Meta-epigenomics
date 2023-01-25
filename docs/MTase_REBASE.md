@@ -111,7 +111,7 @@ with open(mslist,'r') as M:
                     Mtase[temp[0]]=temp[1:]
                 elif 'N4-methylcytosine' in temp[-1]:
                     Mtase[temp[0]]=temp[1:]
-                elif 'N5-methylcytosine' in temp[-1]:
+                elif '5-methylcytosine' in temp[-1]:
                     Mtase[temp[0]]=temp[1:]
             temp=[]
         elif not i:
