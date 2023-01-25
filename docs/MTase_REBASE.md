@@ -109,9 +109,9 @@ with open(mslist,'r') as M:
             if flag>1:# and len(temp[1:])==4:
                 if '6-methyladenosine' in temp[-1]:
                     Mtase[temp[0]]=temp[1:]
-                elif '4-methylcytosine' in temp[-1]:
+                elif 'N4-methylcytosine' in temp[-1]:
                     Mtase[temp[0]]=temp[1:]
-                elif '5-methylcytosine' in temp[-1]:
+                elif 'N5-methylcytosine' in temp[-1]:
                     Mtase[temp[0]]=temp[1:]
             temp=[]
         elif not i:
