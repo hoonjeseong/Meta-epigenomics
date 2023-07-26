@@ -79,7 +79,7 @@ def main(Genome, Bam, Ipd, Out, Motif, dp):
             with open(Out+'/met_result/'+s+'.d'+str(dp)+'.pickle','rb') as f:
                 metD = pickle.load(f)
         else:
-            metD=Get_Met(Ipd+'/'+s+'.gff',M_Motifs,dp)
+            metD=MEpi.Get_Met(Ipd+'/'+s+'.gff',M_Motifs,dp)
             with open(Out+'/met_result/'+s+'.d'+str(dp)+'.pickle', 'wb') as f:
                 pickle.dump(metD, f, pickle.HIGHEST_PROTOCOL)
 
